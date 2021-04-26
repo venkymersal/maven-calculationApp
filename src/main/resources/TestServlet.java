@@ -12,9 +12,6 @@ int n2 = Integer.parseInt(sn);
 int choice = Integer.parseInt(ch);
 int rs=0;
 
-
-
-
 	switch(choice)
 	{
 	case 1 : rs = n1 + n2; break;
