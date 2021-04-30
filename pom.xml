@@ -42,7 +42,7 @@
            <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
         </properties>
 	<build>
-		<finalName>CalculationMavenApp</finalName>
-		<finalName>${project.artifactId}-${project.version}-${maven.build.timestamp}</finalName>
+		<finalName>CalculationMavenApp-${maven.build.timestamp}</finalName>
+		
 	</build>
 </project>
