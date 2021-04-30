@@ -37,6 +37,6 @@
 
 	</dependencies>
 	<build>
-		<finalName>CalculationMavenApp.{timeStamp}</finalName>
+		<finalName>CalculationMavenApp.${timeStamp}</finalName>
 	</build>
 </project>
