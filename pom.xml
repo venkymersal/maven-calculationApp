@@ -36,9 +36,8 @@
 	
 	<!-- Timestamp for artifact file -->
 	<properties>
-   		<timestamp>${maven.build.timestamp}</timestamp>
-   		<maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
-	</properties>
+   		 <maven.build.timestamp.format>yyyy-MM-dd'T'HH:mm:ss'Z'</maven.build.timestamp.format>
+  	</properties>
 	
 	<build>
 		<finalName>CalculationMavenApp-${maven.build.timestamp}</finalName>		
